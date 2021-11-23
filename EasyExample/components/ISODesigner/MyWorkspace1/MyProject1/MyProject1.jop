@@ -130,24 +130,12 @@
 		</Object>
 		<Object Class="CMacro" JVS-ID="4" ObjectName="Macro_4" Pinned="FALSE">
 			<Commands>
-				<Command id="160" subid="-1">
+				<Command id="180" subid="-1">
 					<Params>
-						<Param Name="Object ID" Type="3">3000 - Container_Gesamtzaehler</Param>
-						<Param Name="Show" Type="14">1</Param>
-					</Params>
-				</Command>
-				<Command id="160" subid="-1">
-					<Params>
-						<Param Name="Object ID" Type="3">3001 - Container_Tageszaehler</Param>
-						<Param Name="Show" Type="14">1</Param>
-					</Params>
-				</Command>
-				<Command id="163" subid="-1">
-					<Params>
-						<Param Name="Number of repetitions" Type="1">1</Param>
-						<Param Name="Frequency in hz" Type="1">440</Param>
-						<Param Name="On-time duration in ms" Type="1">1000</Param>
-						<Param Name="Off-time duration in ms" Type="1">0</Param>
+						<Param Name="Parent Object ID" Type="5">3000 - Container_Gesamtzaehler</Param>
+						<Param Name="Child Object ID" Type="4">6001 - Button_Reset_Gesamtzaehler</Param>
+						<Param Name="New X" Type="1">5</Param>
+						<Param Name="New Y" Type="1">0</Param>
 					</Params>
 				</Command>
 			</Commands>
@@ -158,28 +146,7 @@
 			</Property>
 		</Object>
 		<Object Class="CMacro" JVS-ID="5" ObjectName="Macro_5" Pinned="FALSE">
-			<Commands>
-				<Command id="160" subid="-1">
-					<Params>
-						<Param Name="Object ID" Type="3">3000 - Container_Gesamtzaehler</Param>
-						<Param Name="Show" Type="14">False</Param>
-					</Params>
-				</Command>
-				<Command id="160" subid="-1">
-					<Params>
-						<Param Name="Object ID" Type="3">3001 - Container_Tageszaehler</Param>
-						<Param Name="Show" Type="14">False</Param>
-					</Params>
-				</Command>
-				<Command id="163" subid="-1">
-					<Params>
-						<Param Name="Number of repetitions" Type="1">2</Param>
-						<Param Name="Frequency in hz" Type="1">440</Param>
-						<Param Name="On-time duration in ms" Type="1">1000</Param>
-						<Param Name="Off-time duration in ms" Type="1">1000</Param>
-					</Params>
-				</Command>
-			</Commands>
+			<Commands/>
 			<Property Name="Comment">
 				<Value>
 					<![CDATA[AAA=]]>
@@ -502,6 +469,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194310"/>
@@ -540,6 +510,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -597,6 +570,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194337"/>
@@ -628,6 +604,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -663,6 +642,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194326"/>
@@ -694,6 +676,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -762,6 +747,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194334"/>
@@ -826,6 +814,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -894,6 +885,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194316"/>
@@ -960,6 +954,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194307"/>
@@ -1001,7 +998,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="AutoAdjustTextarea">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="3DStyle">
 					<Value>0</Value>
@@ -1024,6 +1021,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1101,7 +1101,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="AutoAdjustTextarea">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="3DStyle">
 					<Value>0</Value>
@@ -1124,6 +1124,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1201,7 +1204,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="AutoAdjustTextarea">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="3DStyle">
 					<Value>0</Value>
@@ -1224,6 +1227,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1333,7 +1339,7 @@
 					<Value>0</Value>
 				</Property>
 				<Property Name="AutoAdjustTextarea">
-					<Value>1</Value>
+					<Value>0</Value>
 				</Property>
 				<Property Name="3DStyle">
 					<Value>0</Value>
@@ -1356,6 +1362,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1514,6 +1523,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -1637,6 +1649,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -1736,6 +1751,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -1838,6 +1856,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23002"/>
@@ -1936,6 +1957,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -2038,6 +2062,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -2136,6 +2163,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -2238,6 +2268,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -2336,6 +2369,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -2438,6 +2474,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23000"/>
@@ -2536,6 +2575,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -2638,6 +2680,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -2736,6 +2781,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -2838,6 +2886,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -2938,6 +2989,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -3036,6 +3090,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -3139,6 +3196,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="23001"/>
@@ -3180,6 +3240,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -3261,6 +3324,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="21001"/>
@@ -3339,6 +3405,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="21000"/>
@@ -3376,6 +3445,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -3509,6 +3581,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -3670,6 +3745,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 		</Object>
 		<Object Class="CImage" Name="Image" ObjectName="Icon_Button_PlusPlus" Pinned="FALSE" JVS-ID="20001">
@@ -3733,6 +3811,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -3800,6 +3881,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 		</Object>
 		<Object Class="CImage" Name="Image" ObjectName="IconSoftKey_PlusPlus" Pinned="FALSE" JVS-ID="20003">
@@ -3865,6 +3949,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 		</Object>
 		<Object Class="CPointer" Name="Pointer" ObjectName="ObjectPointer_Null2" Pinned="FALSE" JVS-ID="27000">
@@ -3881,6 +3968,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -3901,6 +3991,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 		</Object>
 		<Object Class="CPointer" Name="Pointer" ObjectName="ObjectPointer_Null1" Pinned="FALSE" JVS-ID="27002">
@@ -3919,6 +4012,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 		</Object>
 		<Object Class="CPointer" Name="Pointer" ObjectName="ObjectPointer_Gesamtziel" Pinned="FALSE" JVS-ID="27003">
@@ -3935,6 +4031,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -3986,6 +4085,9 @@
 					</Value>
 				</Property>
 				<Property Name="Disabled">
+					<Value>0</Value>
+				</Property>
+				<Property Name="ExternalReferenceAllowed">
 					<Value>0</Value>
 				</Property>
 			</PropertySheet>
@@ -4042,6 +4144,9 @@
 				<Property Name="Disabled">
 					<Value>0</Value>
 				</Property>
+				<Property Name="ExternalReferenceAllowed">
+					<Value>0</Value>
+				</Property>
 			</PropertySheet>
 			<Objects>
 				<Object JVS-ID="4194340"/>
@@ -4057,6 +4162,9 @@
 				</Property>
 				<Property Name="Name">
 					<Value>Text</Value>
+				</Property>
+				<Property Name="TabIndex">
+					<Value>-1</Value>
 				</Property>
 				<Property Name="Transform">
 					<Value>(1.0000000000000000)(0.0000000000000000)(0.0000000000000000)(0.0000000000000000)(1.0000000000000000)(26.0000000000000000)</Value>
@@ -4076,6 +4184,9 @@
 				</Property>
 				<Property Name="Name">
 					<Value>Text</Value>
+				</Property>
+				<Property Name="TabIndex">
+					<Value>-1</Value>
 				</Property>
 				<Property Name="Transform">
 					<Value>(1.0000000000000000)(0.0000000000000000)(0.0000000000000000)(0.0000000000000000)(1.0000000000000000)(26.5000000000000000)</Value>
@@ -4205,6 +4316,9 @@
 				</Property>
 				<Property Name="Name">
 					<Value>Text</Value>
+				</Property>
+				<Property Name="TabIndex">
+					<Value>-1</Value>
 				</Property>
 				<Property Name="Transform">
 					<Value>(1.0000000000000000)(0.0000000000000000)(0.0000000000000000)(0.0000000000000000)(1.0000000000000000)(26.0000000000000000)</Value>
@@ -4620,6 +4734,9 @@
 				</Property>
 				<Property Name="Name">
 					<Value>Text</Value>
+				</Property>
+				<Property Name="TabIndex">
+					<Value>-1</Value>
 				</Property>
 				<Property Name="Transform">
 					<Value>(1.0000000000000000)(0.0000000000000000)(0.0000000000000000)(0.0000000000000000)(1.0000000000000000)(10.5000000000000000)</Value>
