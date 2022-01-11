@@ -174,6 +174,21 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 		break;
 	}
 
+	switch(Gesamtzaehler)
+
+	{
+		case 1:
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 1, 440, 50, 300);
+			break;
+		case 2:
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 2, 440, 50, 300);
+			break;
+		case 3:
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 3, 440, 50, 300);
+			break;
+
+
+	}
 	if (Gesamtzaehler == 1)
 		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 1, 440, 50, 300);
 	if (Gesamtzaehler == 2)
