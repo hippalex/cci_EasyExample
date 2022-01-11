@@ -159,6 +159,7 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 		//bei Zählerstand 0 soll er nicht mehr -- machen.
 		if (Gesamtzaehler > 0)
 			Gesamtzaehler--;
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 3, 440, 50, 300);
 		break;
 
 	case SoftKey_Reset_Gesamtzaehler:
