@@ -146,6 +146,7 @@ void VTC_handleSoftkeysAndButtons_RELEASED(const struct ButtonActivation_S *pBut
 	case Button_PlusPlus:
 		Tageszaehler++;
 		Gesamtzaehler++;
+		IsoVtcCmd_CtrlAudioSignal(pButtonData->u8Instance, 4, 440, 100, 400);
 		break;
 
 	// SoftKey mit Namen  SoftKey_MinusMinus mit ID 5003 wurde losgelassen.
